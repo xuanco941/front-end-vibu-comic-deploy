@@ -4,6 +4,7 @@ import style from './header.module.css';
 
 const Header = () => {
     let location = window.location.href;
+
     return (
         <>
             <header className={clsx(style.header)}>
